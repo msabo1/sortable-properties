@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/msabo1/sortable-properties/issues"
   },
-  "homepage": "https://github.com/msabo1/sortable-properties#readme"
+  "homepage": "https://github.com/msabo1/sortable-properties#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
 }
