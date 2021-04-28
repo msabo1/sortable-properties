@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/msabo1/sortable-properties#readme",
   "dependencies": {
-    "reflect-metadata": "^0.1.13"
+    "class-validator": "*",
+    "reflect-metadata": "*"
   }
 }
