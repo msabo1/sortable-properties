@@ -1,6 +1,6 @@
 {
   "name": "sortable-properties",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Small set of utilities based on TypeScript decorators and class-validator that make validation of sortable properties easy.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
