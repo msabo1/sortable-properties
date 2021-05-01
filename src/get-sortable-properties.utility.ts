@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { MetadataKey } from './constants';
 import { Constructible } from './constructible.type';
 
