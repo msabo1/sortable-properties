@@ -18,12 +18,6 @@ Install package with npm using
 
 ## How to use it
 
-First, make sure you have imported `reflect-metadata` in your app root.
-
-```typescript
-import 'reflect-metadata';
-```
-
 Decorate model properties you want to be sortable with `Sortable` decorator imported from `sortable-properties`.
 
 ```typescript
