@@ -2,6 +2,9 @@
 
 Small set of utilities based on TypeScript decorators and [class-validator](https://github.com/typestack/class-validator) that make validation of sortable properties easy.
 
+[Github](https://github.com/msabo1/sortable-properties)
+[Npm](https://www.npmjs.com/package/sortable-properties)
+
 ## Why
 
 Let's say you are building REST API using TypeScript. You have domain models (+ maybe view models or more...) and you are using [class-validator](https://github.com/typestack/class-validator) to validate your requests. You want API consumers to be able to sort results by strictly defined set of keys which happens to be subset of your domain model property keys. Now you need to repeat yourself and store that sortable keys in separate array and pass it to `IsIn` class-validator's decorator. There is much space for errors that are hard to catch and it doesn't sound maintainable.
@@ -17,12 +20,6 @@ Install package with npm using
 `npm i sortable-properties`
 
 ## How to use it
-
-First, make sure you have imported `reflect-metadata` in your app root.
-
-```typescript
-import 'reflect-metadata';
-```
 
 Decorate model properties you want to be sortable with `Sortable` decorator imported from `sortable-properties`.
 
